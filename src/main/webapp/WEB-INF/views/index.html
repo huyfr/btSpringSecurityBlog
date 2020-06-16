@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<div sec:authorize="isAnonymous()">
+    Login as <a th:href="@{/admin}">Admin</a>
+</div>
+<div sec:authorize="isAuthenticated()">
+    <div sec:authorize="hasRole('ADMIN')">
+        <a th:href="@{/admin}">My profile</a>
+    </div>
+    <a th:href="@{/logout}">Logout</a>
+</div>
+<br>
+<form th:action="@{/}" method="get">
+    <input type="text" name="search">
+    <input type="submit" value="Search">
+</form>
+<br>
+<div>
+<table border="1px solid black">
+    <tr>
+        <td>Title</td>
+        <td>Category</td>
+        <td>Content</td>
+    </tr>
+    <th:block th:each="blog : ${listBlogIndex}">
+        <tr>
+            <td th:text="${blog.title}"></td>
+            <td th:text="${blog.categoryByCategoryId.name}"></td>
+            <td th:text="${blog.content}"></td>
+        </tr>
+    </th:block>
+</table>
+</div>
+<div>
+    <a th:href="@{'/'(page=${listBlogIndex.number - 1})}" th:if="${listBlogIndex.hasPrevious()}">Previous</a>
+    <span th:text="${listBlogIndex.number + 1}"></span>/<span th:text="${listBlogIndex.totalPages}"></span>
+    <a th:href="@{'/'(page=${listBlogIndex.number + 1})}" th:if="${listBlogIndex.hasNext()()}">Next</a>
+</div>
+</body>
+</html>

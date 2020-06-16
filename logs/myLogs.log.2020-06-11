@@ -1,0 +1,1487 @@
+2020-06-11 16:59:41 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-06-11 16:59:41 DEBUG LogHelper:102 - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@1c4af82c
+
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: org.springframework.jdbc.datasource.DriverManagerDataSource@3358757f
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%209.0/webapps/ROOT/WEB-INF/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		model.Blog
+		model.Category]
+	Mapping files names []
+	Properties []
+2020-06-11 16:59:41 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2020-06-11 16:59:41 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2020-06-11 16:59:41 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Cache71] -> [org.hibernate.dialect.Cache71Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [CUBRID] -> [org.hibernate.dialect.CUBRIDDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2] -> [org.hibernate.dialect.DB2Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390] -> [org.hibernate.dialect.DB2390Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390V8] -> [org.hibernate.dialect.DB2390V8Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2400] -> [org.hibernate.dialect.DB2400Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenFive] -> [org.hibernate.dialect.DerbyTenFiveDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSix] -> [org.hibernate.dialect.DerbyTenSixDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSeven] -> [org.hibernate.dialect.DerbyTenSevenDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Firebird] -> [org.hibernate.dialect.FirebirdDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [FrontBase] -> [org.hibernate.dialect.FrontBaseDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [H2] -> [org.hibernate.dialect.H2Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANAColumnStore] -> [org.hibernate.dialect.HANAColumnStoreDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANARowStore] -> [org.hibernate.dialect.HANARowStoreDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HSQL] -> [org.hibernate.dialect.HSQLDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Informix] -> [org.hibernate.dialect.InformixDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres] -> [org.hibernate.dialect.IngresDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres9] -> [org.hibernate.dialect.Ingres9Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres10] -> [org.hibernate.dialect.Ingres10Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Interbase] -> [org.hibernate.dialect.InterbaseDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [JDataStore] -> [org.hibernate.dialect.JDataStoreDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Mckoi] -> [org.hibernate.dialect.MckoiDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MimerSQL] -> [org.hibernate.dialect.MimerSQLDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57InnoDB] -> [org.hibernate.dialect.MySQL57InnoDBDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57] -> [org.hibernate.dialect.MySQL57Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle8i] -> [org.hibernate.dialect.Oracle8iDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle9i] -> [org.hibernate.dialect.Oracle9iDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle10g] -> [org.hibernate.dialect.Oracle10gDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Pointbase] -> [org.hibernate.dialect.PointbaseDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgresPlus] -> [org.hibernate.dialect.PostgresPlusDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL81] -> [org.hibernate.dialect.PostgreSQL81Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL82] -> [org.hibernate.dialect.PostgreSQL82Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL9] -> [org.hibernate.dialect.PostgreSQL9Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Progress] -> [org.hibernate.dialect.ProgressDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SAPDB] -> [org.hibernate.dialect.SAPDBDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer] -> [org.hibernate.dialect.SQLServerDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2005] -> [org.hibernate.dialect.SQLServer2005Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2008] -> [org.hibernate.dialect.SQLServer2008Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Sybase11] -> [org.hibernate.dialect.Sybase11Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseAnywhere] -> [org.hibernate.dialect.SybaseAnywhereDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE15] -> [org.hibernate.dialect.SybaseASE15Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE157] -> [org.hibernate.dialect.SybaseASE157Dialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Teradata] -> [org.hibernate.dialect.TeradataDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [TimesTen] -> [org.hibernate.dialect.TimesTenDialect]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Borland] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BorlandEnterpriseServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Bitronix] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BitronixJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossTS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossStandAloneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOnAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOnASJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOTM] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOTMJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JRun4] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JRun4JtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [OC4J] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OC4JJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Orion] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OrionJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Resin] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.ResinJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SapNetWeaver] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SapNetWeaverJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SunOne] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SunOneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Weblogic] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WeblogicJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereLiberty] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereLibertyJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.engine.transaction.jta.platform.internal.WebSphereLibertyJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereLibertyJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphere] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereExtended] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereExtendedJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [disallow] -> [org.hibernate.event.internal.EntityCopyNotAllowedObserver]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [allow] -> [org.hibernate.event.internal.EntityCopyAllowedObserver]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [log] -> [org.hibernate.event.internal.EntityCopyAllowedLoggedObserver]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+2020-06-11 16:59:41 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+2020-06-11 16:59:41 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2020-06-11 16:59:41 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-11 16:59:41 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2020-06-11 16:59:41 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+2020-06-11 16:59:41 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+2020-06-11 16:59:41 DEBUG RegionFactoryInitiator:118 - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2020-06-11 16:59:41 DEBUG RegionFactoryInitiator:49 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2020-06-11 16:59:41 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration boolean -> org.hibernate.type.BooleanType@78e39a9d
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration boolean -> org.hibernate.type.BooleanType@78e39a9d
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@78e39a9d
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4e4d45ae
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@3cc40200
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration yes_no -> org.hibernate.type.YesNoType@4ead8a6e
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration byte -> org.hibernate.type.ByteType@16d9ddd0
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration byte -> org.hibernate.type.ByteType@16d9ddd0
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@16d9ddd0
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration character -> org.hibernate.type.CharacterType@61963d67
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration char -> org.hibernate.type.CharacterType@61963d67
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@61963d67
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration short -> org.hibernate.type.ShortType@60a39c09
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration short -> org.hibernate.type.ShortType@60a39c09
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@60a39c09
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration integer -> org.hibernate.type.IntegerType@51a74904
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration int -> org.hibernate.type.IntegerType@51a74904
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@51a74904
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration long -> org.hibernate.type.LongType@3e55b08c
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration long -> org.hibernate.type.LongType@3e55b08c
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3e55b08c
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration float -> org.hibernate.type.FloatType@4b3d0cfb
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration float -> org.hibernate.type.FloatType@4b3d0cfb
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4b3d0cfb
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration double -> org.hibernate.type.DoubleType@736c7a00
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration double -> org.hibernate.type.DoubleType@736c7a00
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@736c7a00
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1c9706e8
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1c9706e8
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1f511114
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1f511114
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration string -> org.hibernate.type.StringType@776f76bf
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.String -> org.hibernate.type.StringType@776f76bf
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@40e791e4
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@62a93587
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration url -> org.hibernate.type.UrlType@15cdbf61
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@15cdbf61
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration Duration -> org.hibernate.type.DurationType@67dcb019
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@67dcb019
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration Instant -> org.hibernate.type.InstantType@1e768496
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1e768496
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@59ae6053
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@59ae6053
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@306d3c2
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@306d3c2
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@461f652d
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@461f652d
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@29eea8f2
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@29eea8f2
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@1a2eb2d5
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@1a2eb2d5
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@28ea0df
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@28ea0df
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration date -> org.hibernate.type.DateType@20379f16
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@20379f16
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration time -> org.hibernate.type.TimeType@417891a7
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@417891a7
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration timestamp -> org.hibernate.type.TimestampType@6959db43
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6959db43
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6959db43
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@932bd78
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration calendar -> org.hibernate.type.CalendarType@563b0bb9
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@563b0bb9
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@563b0bb9
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@23aca381
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration locale -> org.hibernate.type.LocaleType@40a6bffd
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@40a6bffd
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration currency -> org.hibernate.type.CurrencyType@7d1f3421
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@7d1f3421
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@5b9e7332
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5b9e7332
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration class -> org.hibernate.type.ClassType@5d2099ff
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5d2099ff
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5f6564ad
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5f6564ad
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@798e82e
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration binary -> org.hibernate.type.BinaryType@3724a0fe
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration byte[] -> org.hibernate.type.BinaryType@3724a0fe
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration [B -> org.hibernate.type.BinaryType@3724a0fe
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@31b9b741
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@31b9b741
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@31b9b741
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration row_version -> org.hibernate.type.RowVersionType@5bf79f33
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration image -> org.hibernate.type.ImageType@3eeabc62
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration characters -> org.hibernate.type.CharArrayType@28b2a855
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration char[] -> org.hibernate.type.CharArrayType@28b2a855
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration [C -> org.hibernate.type.CharArrayType@28b2a855
+2020-06-11 16:59:41 DEBUG BasicTypeRegistry:156 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@2fa385fb
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@2fa385fb
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@2fa385fb
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration text -> org.hibernate.type.TextType@1152230d
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration ntext -> org.hibernate.type.NTextType@6d289cc4
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration blob -> org.hibernate.type.BlobType@1d728532
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1d728532
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@122c769
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration clob -> org.hibernate.type.ClobType@7e9d80de
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7e9d80de
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration nclob -> org.hibernate.type.NClobType@78d23405
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@78d23405
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@75eb2426
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4a27ed97
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration serializable -> org.hibernate.type.SerializableType@5b18b645
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration object -> org.hibernate.type.ObjectType@57541582
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@57541582
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@335136e1
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@445ecd0c
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6271583e
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@48992ad
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3ed54ae3
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@cd1c698
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@6409cf94
+2020-06-11 16:59:42 DEBUG BasicTypeRegistry:156 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@2c5d3542
+2020-06-11 16:59:42 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+2020-06-11 16:59:42 DEBUG BootstrapContextImpl:262 - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6a5636c2] into BootstrapContext; was [null]
+2020-06-11 16:59:42 DEBUG ClassLoaderAccessImpl:45 - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6a5636c2) [was null]
+2020-06-11 16:59:42 DEBUG BootstrapContextImpl:272 - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@204783a5] into BootstrapContext; was [null]
+2020-06-11 16:59:42 DEBUG BootstrapContextImpl:267 - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@7b7c5149] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@6024749e]
+2020-06-11 16:59:42 DEBUG BootstrapContextImpl:262 - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6a5636c2]
+2020-06-11 16:59:42 DEBUG ClassLoaderAccessImpl:45 - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6a5636c2]
+2020-06-11 16:59:42 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-06-11 16:59:42 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2020-06-11 16:59:42 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2020-06-11 16:59:42 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+2020-06-11 16:59:42 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+2020-06-11 16:59:42 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+2020-06-11 16:59:42 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+2020-06-11 16:59:42 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : MySQL
+    version : 8.0.20
+      major : 8
+      minor : 0
+2020-06-11 16:59:42 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.11 (Revision: 6d4eaa273bc181b4cf1c8ad0821a2227f116fedf)
+      major : 8
+      minor : 0
+2020-06-11 16:59:42 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.2
+2020-06-11 16:59:42 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-11 16:59:42 DEBUG IdentifierHelperBuilder:117 - JDBC driver metadata reported database stores quoted identifiers in more than one case
+2020-06-11 16:59:42 DEBUG IdentifierHelperBuilder:191 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2020-06-11 16:59:42 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [exercise]
+2020-06-11 16:59:42 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [null]
+2020-06-11 16:59:42 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+2020-06-11 16:59:42 DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2020-06-11 16:59:42 DEBUG TypeConfiguration$Scope:141 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2798aa8b] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@70860631]
+2020-06-11 16:59:42 DEBUG AnnotationBinder:549 - Binding entity from annotated class: model.Category
+2020-06-11 16:59:42 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [DTYPE]
+2020-06-11 16:59:42 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-06-11 16:59:42 DEBUG EntityBinder:430 - Import with entity name Category
+2020-06-11 16:59:42 TRACE InFlightMetadataCollectorImpl:728 - Import: Category -> model.Category
+2020-06-11 16:59:42 TRACE InFlightMetadataCollectorImpl:728 - Import: model.Category -> model.Category
+2020-06-11 16:59:42 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [category]
+2020-06-11 16:59:42 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [exercise]
+2020-06-11 16:59:42 DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=exercise}, physicalName=Name{catalog=null, schema=exercise}]
+2020-06-11 16:59:42 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [category]
+2020-06-11 16:59:42 DEBUG EntityBinder:869 - Bind entity model.Category on table category
+2020-06-11 16:59:42 TRACE AnnotationBinder:1618 - Processing annotations of model.Category.id
+2020-06-11 16:59:42 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:42 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:42 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.category), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:42 DEBUG PropertyBinder:175 - MetadataSourceProcessor property id with lazy=false
+2020-06-11 16:59:43 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [model.Category:id]
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:43 DEBUG PropertyBinder:266 - Building property id
+2020-06-11 16:59:43 TRACE PropertyBinder:329 - Cascading id with null
+2020-06-11 16:59:43 DEBUG BinderHelper:644 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2020-06-11 16:59:43 TRACE AnnotationBinder:2411 - Bind @Id on id
+2020-06-11 16:59:43 TRACE AnnotationBinder:1618 - Processing annotations of model.Category.blogsById
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='categoryByCategoryId'}
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [blogsById]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [blogsById]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.category), mappingColumn=blogsById, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.category), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [element]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [element]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.category), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [blogsById_KEY]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.category), mappingColumn=blogsById_KEY, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [blogsById_KEY]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='blogsById_KEY', referencedColumn='null', mappedBy='null'}
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='categoryByCategoryId'}
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='categoryByCategoryId'}
+2020-06-11 16:59:43 DEBUG CollectionBinder:389 - Collection role: model.Category.blogsById
+2020-06-11 16:59:43 DEBUG PropertyBinder:266 - Building property blogsById
+2020-06-11 16:59:43 TRACE PropertyBinder:329 - Cascading blogsById with none
+2020-06-11 16:59:43 TRACE AnnotationBinder:1618 - Processing annotations of model.Category.name
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [name]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [name]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.category), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:43 DEBUG PropertyBinder:175 - MetadataSourceProcessor property name with lazy=false
+2020-06-11 16:59:43 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [model.Category:name]
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:411 - building SimpleValue for name
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [name]
+2020-06-11 16:59:43 DEBUG PropertyBinder:266 - Building property name
+2020-06-11 16:59:43 TRACE PropertyBinder:329 - Cascading name with null
+2020-06-11 16:59:43 DEBUG AnnotationBinder:549 - Binding entity from annotated class: model.Blog
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [DTYPE]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-06-11 16:59:43 DEBUG EntityBinder:430 - Import with entity name Blog
+2020-06-11 16:59:43 TRACE InFlightMetadataCollectorImpl:728 - Import: Blog -> model.Blog
+2020-06-11 16:59:43 TRACE InFlightMetadataCollectorImpl:728 - Import: model.Blog -> model.Blog
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [blog]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [exercise]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [blog]
+2020-06-11 16:59:43 DEBUG EntityBinder:869 - Bind entity model.Blog on table blog
+2020-06-11 16:59:43 TRACE AnnotationBinder:1618 - Processing annotations of model.Blog.id
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.blog), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:43 DEBUG PropertyBinder:175 - MetadataSourceProcessor property id with lazy=false
+2020-06-11 16:59:43 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [model.Blog:id]
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:43 DEBUG PropertyBinder:266 - Building property id
+2020-06-11 16:59:43 TRACE PropertyBinder:329 - Cascading id with null
+2020-06-11 16:59:43 DEBUG BinderHelper:644 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2020-06-11 16:59:43 TRACE AnnotationBinder:2411 - Bind @Id on id
+2020-06-11 16:59:43 TRACE AnnotationBinder:1618 - Processing annotations of model.Blog.categoryByCategoryId
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [category_id]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='category_id', referencedColumn='id', mappedBy=''}
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [categoryByCategoryId]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [categoryByCategoryId]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.blog), mappingColumn=categoryByCategoryId, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:43 DEBUG PropertyBinder:266 - Building property categoryByCategoryId
+2020-06-11 16:59:43 TRACE PropertyBinder:329 - Cascading categoryByCategoryId with none
+2020-06-11 16:59:43 TRACE AnnotationBinder:1618 - Processing annotations of model.Blog.content
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [content]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [content]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.blog), mappingColumn=content, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:43 DEBUG PropertyBinder:175 - MetadataSourceProcessor property content with lazy=false
+2020-06-11 16:59:43 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [model.Blog:content]
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:411 - building SimpleValue for content
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [content]
+2020-06-11 16:59:43 DEBUG PropertyBinder:266 - Building property content
+2020-06-11 16:59:43 TRACE PropertyBinder:329 - Cascading content with null
+2020-06-11 16:59:43 TRACE AnnotationBinder:1618 - Processing annotations of model.Blog.createdDate
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [created_date]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [created_date]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.blog), mappingColumn=created_date, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:43 DEBUG PropertyBinder:175 - MetadataSourceProcessor property createdDate with lazy=false
+2020-06-11 16:59:43 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [model.Blog:createdDate]
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:411 - building SimpleValue for createdDate
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [created_date]
+2020-06-11 16:59:43 DEBUG PropertyBinder:266 - Building property createdDate
+2020-06-11 16:59:43 TRACE PropertyBinder:329 - Cascading createdDate with null
+2020-06-11 16:59:43 TRACE AnnotationBinder:1618 - Processing annotations of model.Blog.title
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [title]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [title]
+2020-06-11 16:59:43 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(exercise.blog), mappingColumn=title, insertable=true, updatable=true, unique=false}
+2020-06-11 16:59:43 DEBUG PropertyBinder:175 - MetadataSourceProcessor property title with lazy=false
+2020-06-11 16:59:43 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [model.Blog:title]
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:411 - building SimpleValue for title
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [title]
+2020-06-11 16:59:43 DEBUG PropertyBinder:266 - Building property title
+2020-06-11 16:59:43 TRACE PropertyBinder:329 - Cascading title with null
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for name
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for content
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for createdDate
+2020-06-11 16:59:43 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for title
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [category_id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [category_id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [category_id]
+2020-06-11 16:59:43 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [category]
+2020-06-11 16:59:43 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [blog]
+2020-06-11 16:59:43 DEBUG CollectionSecondPass:51 - Second pass for collection: model.Category.blogsById
+2020-06-11 16:59:43 DEBUG CollectionBinder:838 - Binding a OneToMany: model.Category.blogsById through a foreign key
+2020-06-11 16:59:43 DEBUG CollectionBinder:876 - Mapping collection: model.Category.blogsById -> blog
+2020-06-11 16:59:43 DEBUG TableBinder:565 - Retrieving property model.Blog.categoryByCategoryId
+2020-06-11 16:59:43 DEBUG CollectionSecondPass:68 - Mapped collection key: category_id, one-to-many: model.Blog
+2020-06-11 16:59:43 DEBUG InFlightMetadataCollectorImpl:1873 - Resolving reference to class: model.Category
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [category_id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [FKqyvjif1i2geaeuvkh3n1jrnn4]
+2020-06-11 16:59:43 DEBUG InFlightMetadataCollectorImpl:1873 - Resolving reference to class: model.Category
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [category_id]
+2020-06-11 16:59:43 TRACE BatchFetchStyle:51 - Interpreting BatchFetchStyle from setting : null
+2020-06-11 16:59:43 DEBUG SessionFactoryImpl:197 - Building session factory
+2020-06-11 16:59:43 DEBUG Settings:70 - SessionFactory name : null
+2020-06-11 16:59:43 DEBUG Settings:71 - Automatic flush during beforeCompletion(): enabled
+2020-06-11 16:59:43 DEBUG Settings:72 - Automatic session close at end of transaction: disabled
+2020-06-11 16:59:43 DEBUG Settings:74 - Statistics: disabled
+2020-06-11 16:59:43 DEBUG Settings:76 - Deleted entity synthetic identifier rollback: disabled
+2020-06-11 16:59:43 DEBUG Settings:77 - Default entity-mode: pojo
+2020-06-11 16:59:43 DEBUG Settings:78 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2020-06-11 16:59:43 DEBUG Settings:79 - Allow initialization of lazy state outside session : disabled
+2020-06-11 16:59:43 DEBUG Settings:81 - Using BatchFetchStyle : LEGACY
+2020-06-11 16:59:43 DEBUG Settings:82 - Default batch fetch size: -1
+2020-06-11 16:59:43 DEBUG Settings:83 - Maximum outer join fetch depth: 2
+2020-06-11 16:59:43 DEBUG Settings:84 - Default null ordering: NONE
+2020-06-11 16:59:43 DEBUG Settings:85 - Order SQL updates by primary key: disabled
+2020-06-11 16:59:43 DEBUG Settings:86 - Order SQL inserts for batching: disabled
+2020-06-11 16:59:43 DEBUG Settings:88 - multi-tenancy strategy : NONE
+2020-06-11 16:59:43 DEBUG Settings:90 - JTA Track by Thread: enabled
+2020-06-11 16:59:43 DEBUG Settings:92 - Query language substitutions: {}
+2020-06-11 16:59:43 DEBUG Settings:93 - Named query checking : enabled
+2020-06-11 16:59:43 DEBUG Settings:95 - Second-level cache: disabled
+2020-06-11 16:59:43 DEBUG Settings:96 - Second-level query cache: disabled
+2020-06-11 16:59:43 DEBUG Settings:97 - Second-level query cache factory: null
+2020-06-11 16:59:43 DEBUG Settings:98 - Second-level cache region prefix: null
+2020-06-11 16:59:43 DEBUG Settings:99 - Optimize second-level cache for minimal puts: disabled
+2020-06-11 16:59:43 DEBUG Settings:100 - Structured second-level cache entries: disabled
+2020-06-11 16:59:43 DEBUG Settings:101 - Second-level cache direct-reference entries: disabled
+2020-06-11 16:59:43 DEBUG Settings:102 - Automatic eviction of collection cache: disabled
+2020-06-11 16:59:43 DEBUG Settings:104 - JDBC batch size: 15
+2020-06-11 16:59:43 DEBUG Settings:105 - JDBC batch updates for versioned data: enabled
+2020-06-11 16:59:43 DEBUG Settings:106 - Scrollable result sets: enabled
+2020-06-11 16:59:43 DEBUG Settings:107 - Wrap result sets: disabled
+2020-06-11 16:59:43 DEBUG Settings:108 - JDBC3 getGeneratedKeys(): enabled
+2020-06-11 16:59:43 DEBUG Settings:109 - JDBC result set fetch size: null
+2020-06-11 16:59:43 DEBUG Settings:110 - Connection release mode: ON_CLOSE
+2020-06-11 16:59:43 DEBUG Settings:111 - Generate SQL with comments: disabled
+2020-06-11 16:59:43 DEBUG Settings:113 - JPA compliance - query : 
+2020-06-11 16:59:43 DEBUG Settings:114 - JPA compliance - closed-handling : 
+2020-06-11 16:59:43 DEBUG Settings:115 - JPA compliance - lists : 
+2020-06-11 16:59:43 DEBUG Settings:116 - JPA compliance - transactions : 
+2020-06-11 16:59:43 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+2020-06-11 16:59:43 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.event.service.spi.EventListenerRegistry]
+2020-06-11 16:59:43 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.resource.beans.spi.ManagedBeanRegistry]
+2020-06-11 16:59:43 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.cache.spi.CacheImplementor]
+2020-06-11 16:59:43 DEBUG SessionFactoryImpl:252 - Session factory constructed with filter configurations : {}
+2020-06-11 16:59:43 DEBUG SessionFactoryImpl:253 - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.class.path=C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin\bootstrap.jar;C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin\tomcat-juli.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, catalina.useNaming=true, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Bangkok, os.name=Windows 7, java.vm.specification.version=1.8, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=GB, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_221\jre\bin, com.sun.management.jmxremote.ssl=false, sun.java.command=org.apache.catalina.startup.Bootstrap start, com.sun.management.jmxremote=, javax.persistence.sharedCache.mode=UNSPECIFIED, sun.cpu.endian=little, user.home=C:\Users\Admin, user.language=en, java.specification.vendor=Oracle Corporation, java.naming.factory.url.pkgs=org.apache.naming, java.home=C:\Program Files\Java\jdk1.8.0_221\jre, ignore.endorsed.dirs=, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, com.sun.management.jmxremote.password.file=C:\Users\Admin\.IntelliJIdea2019.3\system\tomcat\Unnamed_btMoRongUngDungBlog\jmxremote.password, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.tomcat., package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat., sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes, jdk.tls.ephemeralDHKeySize=2048, hibernate.hbm2ddl.auto=update, user.script=, server.loader=, java.util.logging.config.file=C:\Users\Admin\.IntelliJIdea2019.3\system\tomcat\Unnamed_btMoRongUngDungBlog\conf\logging.properties, java.protocol.handler.pkgs=org.apache.catalina.webresources, com.sun.management.jmxremote.access.file=C:\Users\Admin\.IntelliJIdea2019.3\system\tomcat\Unnamed_btMoRongUngDungBlog\jmxremote.access, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_221-b11, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, user.name=Admin, path.separator=;, common.loader="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib","C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/*.jar","C:\Program Files\Apache Software Foundation\Tomcat 9.0/lib","C:\Program Files\Apache Software Foundation\Tomcat 9.0/lib/*.jar", os.version=6.1, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.ejb.persistenceUnitName=default, file.encoding=Cp1252, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp, tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-taglib*.jar,log4j-web*.jar,log4javascript*.jar,slf4j-taglib*.jar, catalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0, com.sun.management.jmxremote.port=1098, java.version=1.8.0_221, java.util.concurrent.ForkJoinPool.common.threadFactory=org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory, tomcat.util.scan.StandardJarScanFilter.jarsToSkip=annotations-api.jar,ant-junit*.jar,ant-launcher.jar,ant.jar,asm-*.jar,aspectj*.jar,bootstrap.jar,catalina-ant.jar,catalina-ha.jar,catalina-ssi.jar,catalina-storeconfig.jar,catalina-tribes.jar,catalina.jar,cglib-*.jar,cobertura-*.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-daemon.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,dom4j-*.jar,easymock-*.jar,ecj-*.jar,el-api.jar,geronimo-spec-jaxrpc*.jar,h2*.jar,hamcrest-*.jar,hibernate*.jar,httpclient*.jar,icu4j-*.jar,jasper-el.jar,jasper.jar,jaspic-api.jar,jaxb-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,jmx-tools.jar,jmx.jar,jsp-api.jar,jstl.jar,jta*.jar,junit-*.jar,junit.jar,log4j*.jar,mail*.jar,objenesis-*.jar,oraclepki.jar,oro-*.jar,servlet-api-*.jar,servlet-api.jar,slf4j*.jar,taglibs-standard-spec-*.jar,tagsoup-*.jar,tomcat-api.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-i18n-*.jar,tomcat-jdbc.jar,tomcat-jni.jar,tomcat-juli-adapters.jar,tomcat-juli.jar,tomcat-util-scan.jar,tomcat-util.jar,tomcat-websocket.jar,tools.jar,websocket-api.jar,wsdl4j*.jar,xercesImpl.jar,xml-apis.jar,xmlParserAPIs-*.jar,xmlParserAPIs.jar,xom-*.jar, user.dir=C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=Service Pack 1, catalina.base=C:\Users\Admin\.IntelliJIdea2019.3\system\tomcat\Unnamed_btMoRongUngDungBlog, shared.loader=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@5126a11, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, java.library.path=C:\Program Files\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;F:\MinGW\bin;F:\Git\cmd;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.221-b11, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.randomIDs=true, java.rmi.server.hostname=127.0.0.1, hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@3358757f, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, tomcat.util.buf.StringCache.byte.enabled=true, java.class.version=52.0}
+2020-06-11 16:59:43 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.query.spi.NativeQueryInterpreter]
+2020-06-11 16:59:43 DEBUG JaccIntegrator:80 - Skipping JACC integration as it was not enabled
+2020-06-11 16:59:43 DEBUG SessionFactoryImpl:292 - Instantiated session factory
+2020-06-11 16:59:43 DEBUG TypeConfiguration$Scope:146 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2798aa8b] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@465c28ec]
+2020-06-11 16:59:43 DEBUG TypeConfiguration$Scope:148 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2798aa8b] to SessionFactory [org.hibernate.internal.SessionFactoryImpl@465c28ec]
+2020-06-11 16:59:43 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@465c28ec after already scoped org.hibernate.internal.SessionFactoryImpl@465c28ec
+2020-06-11 16:59:43 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+2020-06-11 16:59:43 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+2020-06-11 16:59:43 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.property.access.spi.PropertyAccessStrategyResolver]
+2020-06-11 16:59:43 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [model.Category] is safe
+2020-06-11 16:59:43 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Category
+2020-06-11 16:59:43 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [model.Category] is safe
+2020-06-11 16:59:43 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Category
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [blogsById], existing type = [org.hibernate.type.BagType(model.Category.blogsById)], incoming type = [org.hibernate.type.BagType(model.Category.blogsById)]
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [name], existing type = [org.hibernate.type.StringType@776f76bf], incoming type = [org.hibernate.type.StringType@776f76bf]
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [id], existing type = [org.hibernate.type.IntegerType@51a74904], incoming type = [org.hibernate.type.IntegerType@51a74904]
+2020-06-11 16:59:43 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [model.Blog] is safe
+2020-06-11 16:59:43 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Blog
+2020-06-11 16:59:43 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [model.Blog] is safe
+2020-06-11 16:59:43 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Blog
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [categoryByCategoryId.id], existing type = [org.hibernate.type.IntegerType@51a74904], incoming type = [org.hibernate.type.IntegerType@51a74904]
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [categoryByCategoryId], existing type = [org.hibernate.type.ManyToOneType(model.Category)], incoming type = [org.hibernate.type.ManyToOneType(model.Category)]
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [categoryByCategoryId.id], existing type = [org.hibernate.type.IntegerType@51a74904], incoming type = [org.hibernate.type.IntegerType@51a74904]
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [categoryByCategoryId.id], existing type = [org.hibernate.type.IntegerType@51a74904], incoming type = [org.hibernate.type.IntegerType@51a74904]
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [content], existing type = [org.hibernate.type.StringType@776f76bf], incoming type = [org.hibernate.type.StringType@776f76bf]
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [createdDate], existing type = [org.hibernate.type.TimestampType@6959db43], incoming type = [org.hibernate.type.TimestampType@6959db43]
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [title], existing type = [org.hibernate.type.StringType@776f76bf], incoming type = [org.hibernate.type.StringType@776f76bf]
+2020-06-11 16:59:43 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [id], existing type = [org.hibernate.type.IntegerType@51a74904], incoming type = [org.hibernate.type.IntegerType@51a74904]
+2020-06-11 16:59:43 DEBUG AbstractCollectionPersister:673 - Static SQL for collection: model.Category.blogsById
+2020-06-11 16:59:43 DEBUG AbstractCollectionPersister:675 -  Row insert: update blog set category_id=? where id=?
+2020-06-11 16:59:43 DEBUG AbstractCollectionPersister:678 -  Row update: update blog set  where id=?
+2020-06-11 16:59:43 DEBUG AbstractCollectionPersister:681 -  Row delete: update blog set category_id=null where category_id=? and id=?
+2020-06-11 16:59:43 DEBUG AbstractCollectionPersister:684 -  One-shot delete: update blog set category_id=null where category_id=?
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:3738 - Static SQL for entity: model.Category
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:3743 -  Version select: select id from category where id =?
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:3746 -  Snapshot select: select category_.id, category_.name as name2_1_ from category category_ where category_.id=?
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into category (name, id) values (?, ?)
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:394 -  Update 0: update category set name=? where id=?
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from category where id=?
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:3754 -  Identity insert: insert into category (name) values (?)
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:172 -  Starting root entity : model.Category
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@750712e7]
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:113 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51467c64
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:648 - .. Registering AssociationKey : AssociationKey(table=category, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51467c64
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:239 - >> Starting entity identifier : model.Category
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : blogsById
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=blogsById, type=java.util.Collection(model.Category.blogsById) [non-identifier,association])
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@75d8a575]
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@50d111f4]
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=blogsById, type=java.util.Collection(model.Category.blogsById) [non-identifier,association])
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : name
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=name, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=name, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:120 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@51467c64
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:208 -  Finished root entity : model.Category
+2020-06-11 16:59:43 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-11 16:59:43 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-11 16:59:43 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Category)
+    - Returns
+       - EntityReturnImpl(entity=model.Category, querySpaceUid=<gen:0>, path=model.Category)
+          - CollectionAttributeFetchImpl(collection=model.Category.blogsById, querySpaceUid=<gen:1>, path=model.Category.blogsById)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=model.Blog, querySpaceUid=<gen:2>, path=model.Category.blogsById.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Category)
+          - SQL table alias mapping - category0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2020-06-11 16:59:43 DEBUG EntityLoader:137 - Static select for entity model.Category [NONE]: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=?
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:172 -  Starting root entity : model.Category
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@180a3425]
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:113 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6bf0532d
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:648 - .. Registering AssociationKey : AssociationKey(table=category, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6bf0532d
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:239 - >> Starting entity identifier : model.Category
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : blogsById
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=blogsById, type=java.util.Collection(model.Category.blogsById) [non-identifier,association])
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2027d928]
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67d4758c]
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=blogsById, type=java.util.Collection(model.Category.blogsById) [non-identifier,association])
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : name
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=name, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=name, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:120 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6bf0532d
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:208 -  Finished root entity : model.Category
+2020-06-11 16:59:43 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-11 16:59:43 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-11 16:59:43 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Category)
+    - Returns
+       - EntityReturnImpl(entity=model.Category, querySpaceUid=<gen:0>, path=model.Category)
+          - CollectionAttributeFetchImpl(collection=model.Category.blogsById, querySpaceUid=<gen:1>, path=model.Category.blogsById)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=model.Blog, querySpaceUid=<gen:2>, path=model.Category.blogsById.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Category)
+          - SQL table alias mapping - category0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2020-06-11 16:59:43 DEBUG EntityLoader:137 - Static select for entity model.Category [READ]: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=?
+2020-06-11 16:59:43 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity model.Category: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=?
+2020-06-11 16:59:43 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity model.Category: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=?
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:3738 - Static SQL for entity: model.Blog
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:3743 -  Version select: select id from blog where id =?
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:3746 -  Snapshot select: select blog_.id, blog_.category_id as category5_0_, blog_.content as content2_0_, blog_.created_date as created_3_0_, blog_.title as title4_0_ from blog blog_ where blog_.id=?
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into blog (category_id, content, created_date, title, id) values (?, ?, ?, ?, ?)
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:394 -  Update 0: update blog set category_id=?, content=?, created_date=?, title=? where id=?
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from blog where id=?
+2020-06-11 16:59:43 DEBUG AbstractEntityPersister:3754 -  Identity insert: insert into blog (category_id, content, created_date, title) values (?, ?, ?, ?)
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:172 -  Starting root entity : model.Blog
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@752bcfa3]
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:113 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@265f5529
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:648 - .. Registering AssociationKey : AssociationKey(table=blog, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@265f5529
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:239 - >> Starting entity identifier : model.Blog
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : categoryByCategoryId
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=categoryByCategoryId, type=model.Category [non-identifier,association])
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@36e8069a]
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:113 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityAttributeFetchImpl@775c0322
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:648 - .... Registering AssociationKey : AssociationKey(table=blog, columns={category_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityAttributeFetchImpl@775c0322
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:239 - >>>> Starting entity identifier : model.Category
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : categoryByCategoryId.blogsById
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:147 - Property path deemed to be circular : categoryByCategoryId.blogsById
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : categoryByCategoryId.name
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >>>> Starting attribute Attribute(name=name, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - <<<< Finishing up attribute : Attribute(name=name, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:120 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityAttributeFetchImpl@775c0322
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=categoryByCategoryId, type=model.Category [non-identifier,association])
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : content
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=content, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=content, type=string [non-identifier])
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : createdDate
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=createdDate, type=timestamp [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=createdDate, type=timestamp [non-identifier])
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : title
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=title, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=title, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:120 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@265f5529
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:208 -  Finished root entity : model.Blog
+2020-06-11 16:59:43 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-11 16:59:43 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-11 16:59:43 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Blog)
+    - Returns
+       - EntityReturnImpl(entity=model.Blog, querySpaceUid=<gen:0>, path=model.Blog)
+          - EntityAttributeFetchImpl(entity=model.Category, querySpaceUid=<gen:1>, path=model.Blog.categoryByCategoryId)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Blog)
+          - SQL table alias mapping - blog0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(categoryByCategoryId)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=model.Category)
+                - SQL table alias mapping - category1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+2020-06-11 16:59:43 DEBUG EntityLoader:137 - Static select for entity model.Blog [NONE]: select blog0_.id as id1_0_0_, blog0_.category_id as category5_0_0_, blog0_.content as content2_0_0_, blog0_.created_date as created_3_0_0_, blog0_.title as title4_0_0_, category1_.id as id1_1_1_, category1_.name as name2_1_1_ from blog blog0_ inner join category category1_ on blog0_.category_id=category1_.id where blog0_.id=?
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:172 -  Starting root entity : model.Blog
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e06d84d]
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:113 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@39d49bbc
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:648 - .. Registering AssociationKey : AssociationKey(table=blog, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@39d49bbc
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:239 - >> Starting entity identifier : model.Blog
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : categoryByCategoryId
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=categoryByCategoryId, type=model.Category [non-identifier,association])
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1af03eab]
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:113 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityAttributeFetchImpl@7631c53c
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:648 - .... Registering AssociationKey : AssociationKey(table=blog, columns={category_id}) -> org.hibernate.loader.plan.build.internal.returns.EntityAttributeFetchImpl@7631c53c
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:239 - >>>> Starting entity identifier : model.Category
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : categoryByCategoryId.blogsById
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:147 - Property path deemed to be circular : categoryByCategoryId.blogsById
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : categoryByCategoryId.name
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >>>> Starting attribute Attribute(name=name, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - <<<< Finishing up attribute : Attribute(name=name, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:120 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityAttributeFetchImpl@7631c53c
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=categoryByCategoryId, type=model.Category [non-identifier,association])
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : content
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=content, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=content, type=string [non-identifier])
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : createdDate
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=createdDate, type=timestamp [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=createdDate, type=timestamp [non-identifier])
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : title
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=title, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=title, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:120 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@39d49bbc
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:208 -  Finished root entity : model.Blog
+2020-06-11 16:59:43 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-11 16:59:43 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-11 16:59:43 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Blog)
+    - Returns
+       - EntityReturnImpl(entity=model.Blog, querySpaceUid=<gen:0>, path=model.Blog)
+          - EntityAttributeFetchImpl(entity=model.Category, querySpaceUid=<gen:1>, path=model.Blog.categoryByCategoryId)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Blog)
+          - SQL table alias mapping - blog0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(categoryByCategoryId)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=model.Category)
+                - SQL table alias mapping - category1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+2020-06-11 16:59:43 DEBUG EntityLoader:137 - Static select for entity model.Blog [READ]: select blog0_.id as id1_0_0_, blog0_.category_id as category5_0_0_, blog0_.content as content2_0_0_, blog0_.created_date as created_3_0_0_, blog0_.title as title4_0_0_, category1_.id as id1_1_1_, category1_.name as name2_1_1_ from blog blog0_ inner join category category1_ on blog0_.category_id=category1_.id where blog0_.id=?
+2020-06-11 16:59:43 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity model.Blog: select blog0_.id as id1_0_0_, blog0_.category_id as category5_0_0_, blog0_.content as content2_0_0_, blog0_.created_date as created_3_0_0_, blog0_.title as title4_0_0_ from blog blog0_ where blog0_.id=?
+2020-06-11 16:59:43 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity model.Blog: select blog0_.id as id1_0_0_, blog0_.category_id as category5_0_0_, blog0_.content as content2_0_0_, blog0_.created_date as created_3_0_0_, blog0_.title as title4_0_0_ from blog blog0_ where blog0_.id=?
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:341 -  Starting root collection : model.Category.blogsById
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4c3b3ed7]
+2020-06-11 16:59:43 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4c7c7e92]
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:316 - Pushing collection reference to stack : org.hibernate.loader.plan.build.internal.returns.CollectionReturnImpl@6ac2b1ec
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:648 -  Registering AssociationKey : AssociationKey(table=blog, columns={category_id}) -> null
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:454 -  Starting collection element graph : model.Category.blogsById
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:113 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.CollectionFetchableElementEntityGraph@3ff48a74
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:239 - >> Starting entity identifier : model.Blog
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : categoryByCategoryId
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:147 - Property path deemed to be circular : categoryByCategoryId
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : content
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=content, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=content, type=string [non-identifier])
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : createdDate
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=createdDate, type=timestamp [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=createdDate, type=timestamp [non-identifier])
+2020-06-11 16:59:43 DEBUG MetamodelGraphWalker:139 - Visiting attribute path : title
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=title, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=title, type=string [non-identifier])
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:120 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.CollectionFetchableElementEntityGraph@3ff48a74
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:501 -  Finished collection element graph : model.Category.blogsById
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:323 - Popped collection reference from stack : org.hibernate.loader.plan.build.internal.returns.CollectionReturnImpl@6ac2b1ec
+2020-06-11 16:59:43 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:379 -  Finished root collection : model.Category.blogsById
+2020-06-11 16:59:43 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-11 16:59:43 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-11 16:59:43 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=model.Category.blogsById)
+    - Returns
+       - CollectionReturnImpl(collection=model.Category.blogsById, querySpaceUid=<gen:0>, path=[model.Category.blogsById])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=model.Blog, querySpaceUid=<gen:1>, path=[model.Category.blogsById].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=model.Category.blogsById)
+          - SQL table alias mapping - blogsbyid0_
+          - alias suffix - 0_
+          - suffixed key columns - {category5_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=model.Blog)
+                - SQL table alias mapping - blogsbyid0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+2020-06-11 16:59:43 DEBUG CollectionLoader:83 - Static select for collection model.Category.blogsById: select blogsbyid0_.category_id as category5_0_0_, blogsbyid0_.id as id1_0_0_, blogsbyid0_.id as id1_0_1_, blogsbyid0_.category_id as category5_0_1_, blogsbyid0_.content as content2_0_1_, blogsbyid0_.created_date as created_3_0_1_, blogsbyid0_.title as title4_0_1_ from blog blogsbyid0_ where blogsbyid0_.category_id=?
+2020-06-11 16:59:43 TRACE MetadataContext:183 - Wrapping up metadata context...
+2020-06-11 16:59:43 TRACE MetadataContext:195 - Starting entity [model.Category]
+2020-06-11 16:59:43 TRACE AttributeFactory:125 - Building identifier attribute [model.Category.id]
+2020-06-11 16:59:43 TRACE AttributeFactory:454 - Starting attribute metadata determination [id]
+2020-06-11 16:59:43 TRACE AttributeFactory:459 -     Determined member [public java.lang.Integer model.Category.getId()]
+2020-06-11 16:59:43 TRACE AttributeFactory:463 -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+2020-06-11 16:59:43 TRACE AttributeFactory:74 - Building attribute [model.Category.blogsById]
+2020-06-11 16:59:43 TRACE AttributeFactory:454 - Starting attribute metadata determination [blogsById]
+2020-06-11 16:59:43 TRACE AttributeFactory:459 -     Determined member [public java.util.Collection model.Category.getBlogsById()]
+2020-06-11 16:59:43 TRACE AttributeFactory:463 -     Determined type [name=java.util.Collection(model.Category.blogsById), class=org.hibernate.type.BagType]
+2020-06-11 16:59:43 TRACE AttributeFactory:74 - Building attribute [model.Category.name]
+2020-06-11 16:59:43 TRACE AttributeFactory:454 - Starting attribute metadata determination [name]
+2020-06-11 16:59:43 TRACE AttributeFactory:459 -     Determined member [public java.lang.String model.Category.getName()]
+2020-06-11 16:59:43 TRACE AttributeFactory:463 -     Determined type [name=string, class=org.hibernate.type.StringType]
+2020-06-11 16:59:43 TRACE MetadataContext:226 - Completed entity [model.Category]
+2020-06-11 16:59:43 TRACE MetadataContext:195 - Starting entity [model.Blog]
+2020-06-11 16:59:43 TRACE AttributeFactory:125 - Building identifier attribute [model.Blog.id]
+2020-06-11 16:59:43 TRACE AttributeFactory:454 - Starting attribute metadata determination [id]
+2020-06-11 16:59:43 TRACE AttributeFactory:459 -     Determined member [public java.lang.Integer model.Blog.getId()]
+2020-06-11 16:59:43 TRACE AttributeFactory:463 -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+2020-06-11 16:59:43 TRACE AttributeFactory:74 - Building attribute [model.Blog.categoryByCategoryId]
+2020-06-11 16:59:43 TRACE AttributeFactory:454 - Starting attribute metadata determination [categoryByCategoryId]
+2020-06-11 16:59:43 TRACE AttributeFactory:459 -     Determined member [public model.Category model.Blog.getCategoryByCategoryId()]
+2020-06-11 16:59:43 TRACE AttributeFactory:463 -     Determined type [name=model.Category, class=org.hibernate.type.ManyToOneType]
+2020-06-11 16:59:43 TRACE AttributeFactory:74 - Building attribute [model.Blog.content]
+2020-06-11 16:59:43 TRACE AttributeFactory:454 - Starting attribute metadata determination [content]
+2020-06-11 16:59:43 TRACE AttributeFactory:459 -     Determined member [public java.lang.String model.Blog.getContent()]
+2020-06-11 16:59:43 TRACE AttributeFactory:463 -     Determined type [name=string, class=org.hibernate.type.StringType]
+2020-06-11 16:59:43 TRACE AttributeFactory:74 - Building attribute [model.Blog.createdDate]
+2020-06-11 16:59:43 TRACE AttributeFactory:454 - Starting attribute metadata determination [createdDate]
+2020-06-11 16:59:43 TRACE AttributeFactory:459 -     Determined member [public java.sql.Timestamp model.Blog.getCreatedDate()]
+2020-06-11 16:59:43 TRACE AttributeFactory:463 -     Determined type [name=timestamp, class=org.hibernate.type.TimestampType]
+2020-06-11 16:59:43 TRACE AttributeFactory:74 - Building attribute [model.Blog.title]
+2020-06-11 16:59:43 TRACE AttributeFactory:454 - Starting attribute metadata determination [title]
+2020-06-11 16:59:43 TRACE AttributeFactory:459 -     Determined member [public java.lang.String model.Blog.getTitle()]
+2020-06-11 16:59:43 TRACE AttributeFactory:463 -     Determined type [name=string, class=org.hibernate.type.StringType]
+2020-06-11 16:59:43 TRACE MetadataContext:226 - Completed entity [model.Blog]
+2020-06-11 16:59:43 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.tool.schema.spi.SchemaManagementTool]
+2020-06-11 16:59:43 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [exercise]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [exercise] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [blog]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [blog] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [id] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [content]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [content] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [created_date]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [created_date] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [title]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [title] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [category_id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [category_id] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 DEBUG Table:528 - No alter strings for table : blog
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [category]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [category] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [id]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [id] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [name]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [name] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 DEBUG Table:528 - No alter strings for table : category
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [blog]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [blog] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE UniqueConstraintSchemaUpdateStrategy:50 - Interpreting UniqueConstraintSchemaUpdateStrategy from setting : null
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [category]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [category] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [exercise]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [exercise] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [blog]
+2020-06-11 16:59:43 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [blog] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:44 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [exercise]
+2020-06-11 16:59:44 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [category]
+2020-06-11 16:59:44 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [category_id]
+2020-06-11 16:59:44 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [id]
+2020-06-11 16:59:44 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [category]
+2020-06-11 16:59:44 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [category] in lower case for use in DatabaseMetaData
+2020-06-11 16:59:44 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+2020-06-11 16:59:44 DEBUG JtaPlatformInitiator:43 - No JtaPlatform was specified, checking resolver
+2020-06-11 16:59:44 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatformResolver]
+2020-06-11 16:59:44 DEBUG JtaPlatformResolverInitiator:33 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2020-06-11 16:59:44 DEBUG StandardJtaPlatformResolver:110 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-11 16:59:44 DEBUG NamedQueryRepository:151 - Checking 0 named HQL queries
+2020-06-11 16:59:44 DEBUG NamedQueryRepository:167 - Checking 0 named SQL queries
+2020-06-11 16:59:44 TRACE TypeConfiguration$Scope:184 - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@465c28ec] for TypeConfiguration
+2020-06-11 16:59:44 DEBUG SessionFactoryRegistry:52 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@1b031d39
+2020-06-11 16:59:44 DEBUG SessionFactoryRegistry:74 - Registering SessionFactory: 4aa75e4a-cc33-4b89-bad4-ed9fb72b4ed7 (<unnamed>)
+2020-06-11 16:59:44 DEBUG SessionFactoryRegistry:81 - Not binding SessionFactory to JNDI, no JNDI name configured
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+2020-06-11 16:59:44 DEBUG StatisticsInitiator:101 - Statistics initialized [enabled=false]
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [6e12bb9b-ad28-4d2e-8d52-5a7d0ca76cc9] at timestamp: 1591869584228
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [6e12bb9b-ad28-4d2e-8d52-5a7d0ca76cc9]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@7337f1c2]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [68a1e58f-d897-4108-bede-a9485ff886fb] at timestamp: 1591869584288
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [68a1e58f-d897-4108-bede-a9485ff886fb]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@f94a22b]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [65283480-6be3-44ac-a138-97c73d08ecf4] at timestamp: 1591869584289
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [65283480-6be3-44ac-a138-97c73d08ecf4]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@4e7dfde5]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [d2365cb7-72bb-4a1b-bf7e-01f38efb0211] at timestamp: 1591869584308
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [d2365cb7-72bb-4a1b-bf7e-01f38efb0211]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@4d64e53f]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [2999f5e3-7737-4842-bbe7-05c94d4a43a5] at timestamp: 1591869584348
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [2999f5e3-7737-4842-bbe7-05c94d4a43a5]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@745f00e8]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [6cf3b387-7fea-4689-a295-d1ee1a53de5a] at timestamp: 1591869584380
+2020-06-11 16:59:44 DEBUG TransactionImpl:56 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-11 16:59:44 DEBUG JdbcResourceLocalTransactionCoordinatorImpl:314 - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:314)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.markRollbackOnly(TransactionImpl.java:197)
+	at org.hibernate.internal.AbstractSharedSessionContract.markForRollbackOnly(AbstractSharedSessionContract.java:376)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:167)
+	at org.hibernate.internal.AbstractSharedSessionContract.buildQueryFromName(AbstractSharedSessionContract.java:810)
+	at org.hibernate.internal.AbstractSharedSessionContract.createNamedQuery(AbstractSharedSessionContract.java:789)
+	at org.hibernate.internal.AbstractSessionImpl.createNamedQuery(AbstractSessionImpl.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:347)
+	at com.sun.proxy.$Proxy50.createNamedQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.NamedQuery.hasNamedQuery(NamedQuery.java:99)
+	at org.springframework.data.jpa.repository.query.NamedQuery.lookupFrom(NamedQuery.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:156)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:205)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:77)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:451)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:223)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:277)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:263)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:101)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1692)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1272)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1272)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4684)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5147)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1727)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:288)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:456)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:405)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:288)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at com.sun.jmx.remote.security.MBeanServerAccessController.invoke(MBeanServerAccessController.java:468)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1408)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [6cf3b387-7fea-4689-a295-d1ee1a53de5a]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@207c764d]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [82fb83e1-6449-4206-8e23-ef49c2af4006] at timestamp: 1591869584398
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [82fb83e1-6449-4206-8e23-ef49c2af4006]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@382bcb7]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [5539e428-6db9-4e65-81e1-86adeeca1218] at timestamp: 1591869584437
+2020-06-11 16:59:44 DEBUG TransactionImpl:56 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-11 16:59:44 DEBUG JdbcResourceLocalTransactionCoordinatorImpl:314 - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:314)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.markRollbackOnly(TransactionImpl.java:197)
+	at org.hibernate.internal.AbstractSharedSessionContract.markForRollbackOnly(AbstractSharedSessionContract.java:376)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:167)
+	at org.hibernate.internal.AbstractSharedSessionContract.buildQueryFromName(AbstractSharedSessionContract.java:810)
+	at org.hibernate.internal.AbstractSharedSessionContract.createNamedQuery(AbstractSharedSessionContract.java:789)
+	at org.hibernate.internal.AbstractSessionImpl.createNamedQuery(AbstractSessionImpl.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:347)
+	at com.sun.proxy.$Proxy50.createNamedQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.NamedQuery.hasNamedQuery(NamedQuery.java:99)
+	at org.springframework.data.jpa.repository.query.NamedQuery.lookupFrom(NamedQuery.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:156)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:205)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:77)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:451)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:223)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:277)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:263)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:101)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1692)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1272)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1272)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4684)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5147)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1727)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:288)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:456)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:405)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:288)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at com.sun.jmx.remote.security.MBeanServerAccessController.invoke(MBeanServerAccessController.java:468)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1408)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [5539e428-6db9-4e65-81e1-86adeeca1218]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@267e27da]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [dfc36c68-b8ab-41cb-952d-743e319d84b5] at timestamp: 1591869584452
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [dfc36c68-b8ab-41cb-952d-743e319d84b5]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@11c376c]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [71c967d9-7906-4df6-aa5d-87baddaa9ece] at timestamp: 1591869584483
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [71c967d9-7906-4df6-aa5d-87baddaa9ece]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@5e034120]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [0206f559-209e-4f7a-866d-f7390b55049c] at timestamp: 1591869584487
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [0206f559-209e-4f7a-866d-f7390b55049c]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@6c6508a7]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [4037fc83-1240-4273-baff-5fb9749ac9f7] at timestamp: 1591869584490
+2020-06-11 16:59:44 TRACE SessionImpl:422 - Closing session [4037fc83-1240-4273-baff-5fb9749ac9f7]
+2020-06-11 16:59:44 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@30b522b1]
+2020-06-11 16:59:44 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:44 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:44 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:44 TRACE SessionImpl:288 - Opened Session [57866fa6-895b-4da5-a620-0e4437c4a26f] at timestamp: 1591869584965
+2020-06-11 16:59:52 TRACE CategoryController:31 - Go into loadListCategory()
+2020-06-11 16:59:52 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 16:59:52 TRACE SessionImpl:288 - Opened Session [ecb3e3be-b5ec-4806-b5d2-f44874c37acf] at timestamp: 1591869592953
+2020-06-11 16:59:52 DEBUG TransactionImpl:56 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-11 16:59:52 DEBUG TransactionImpl:78 - begin
+2020-06-11 16:59:52 TRACE AbstractLogicalConnectionImplementor:66 - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+2020-06-11 16:59:52 TRACE AbstractLogicalConnectionImplementor:68 - Transaction begun via JDBC Connection.setAutoCommit(false)
+2020-06-11 16:59:52 TRACE JdbcResourceLocalTransactionCoordinatorImpl:172 - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+2020-06-11 16:59:52 DEBUG CriteriaQueryImpl:307 - Rendered criteria query -> select generatedAlias0 from Category as generatedAlias0
+2020-06-11 16:59:52 TRACE QueryPlanCache:152 - Unable to locate HQL query plan in cache; generating (select generatedAlias0 from Category as generatedAlias0)
+2020-06-11 16:59:53 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.hql.spi.QueryTranslatorFactory]
+2020-06-11 16:59:53 DEBUG QueryTranslatorFactoryInitiator:45 - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@1e7e05d2
+2020-06-11 16:59:53 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-06-11 16:59:53 DEBUG QueryTranslatorImpl:287 - parse() - HQL: select generatedAlias0 from model.Category as generatedAlias0
+2020-06-11 16:59:53 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-11 16:59:53 DEBUG QueryTranslatorImpl:308 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[IDENT] Node: 'model'
+       |     |  \-[IDENT] Node: 'Category'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2020-06-11 16:59:53 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2020-06-11 16:59:53 DEBUG FromElement:146 - FromClause{level=1} : model.Category (generatedAlias0) -> category0_
+2020-06-11 16:59:53 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> category0_.id
+2020-06-11 16:59:53 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2020-06-11 16:59:53 DEBUG HqlSqlWalker:752 - processQuery() :  ( SELECT ( {select clause} category0_.id ) ( FromClause{level=1} category category0_ ) )
+2020-06-11 16:59:53 DEBUG JoinProcessor:192 - Using FROM fragment [category category0_]
+2020-06-11 16:59:53 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2020-06-11 16:59:53 DEBUG QueryTranslatorImpl:274 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (category)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'category0_.id as id1_1_' {alias=generatedAlias0, className=model.Category, tableAlias=category0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'category0_.name as name2_1_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[category0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'category category0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=category,tableAlias=category0_,origin=null,columns={,className=model.Category}}
+
+2020-06-11 16:59:53 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-11 16:59:53 DEBUG QueryTranslatorImpl:253 - HQL: select generatedAlias0 from model.Category as generatedAlias0
+2020-06-11 16:59:53 DEBUG QueryTranslatorImpl:254 - SQL: select category0_.id as id1_1_, category0_.name as name2_1_ from category category0_
+2020-06-11 16:59:53 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-11 16:59:53 TRACE QueryPlanCache:157 - Located HQL query plan in cache (select generatedAlias0 from Category as generatedAlias0)
+2020-06-11 16:59:53 TRACE QueryPlanCache:157 - Located HQL query plan in cache (select generatedAlias0 from Category as generatedAlias0)
+2020-06-11 16:59:53 TRACE HQLQueryPlan:198 - Find: select generatedAlias0 from Category as generatedAlias0
+2020-06-11 16:59:53 TRACE QueryParameters:325 - Named parameters: {}
+2020-06-11 16:59:53 DEBUG SQL:94 - select category0_.id as id1_1_, category0_.name as name2_1_ from category category0_
+2020-06-11 16:59:53 TRACE ResourceRegistryStandardImpl:66 - Registering statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_, category0_.name as name2_1_ from category category0_]
+2020-06-11 16:59:53 TRACE JdbcCoordinatorImpl:339 - Registering last query statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_, category0_.name as name2_1_ from category category0_]
+2020-06-11 16:59:53 TRACE Loader:2034 - Bound [1] parameters total
+2020-06-11 16:59:53 TRACE ResourceRegistryStandardImpl:193 - Registering result set [com.mysql.cj.jdbc.result.ResultSetImpl@7d9c7c69]
+2020-06-11 16:59:53 TRACE Loader:983 - Processing result set
+2020-06-11 16:59:53 DEBUG Loader:384 - Result set row: 0
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([id1_1_] : [INTEGER]) - [1]
+2020-06-11 16:59:53 DEBUG Loader:1532 - Result row: EntityKey[model.Category#1]
+2020-06-11 16:59:53 TRACE Loader:1718 - Initializing object from ResultSet: [model.Category#1]
+2020-06-11 16:59:53 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Category#1]
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([name2_1_] : [VARCHAR]) - [Thieu nhi]
+2020-06-11 16:59:53 DEBUG Loader:384 - Result set row: 1
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([id1_1_] : [INTEGER]) - [2]
+2020-06-11 16:59:53 DEBUG Loader:1532 - Result row: EntityKey[model.Category#2]
+2020-06-11 16:59:53 TRACE Loader:1718 - Initializing object from ResultSet: [model.Category#2]
+2020-06-11 16:59:53 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Category#2]
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([name2_1_] : [VARCHAR]) - [?? ?n]
+2020-06-11 16:59:53 DEBUG Loader:384 - Result set row: 2
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([id1_1_] : [INTEGER]) - [3]
+2020-06-11 16:59:53 DEBUG Loader:1532 - Result row: EntityKey[model.Category#3]
+2020-06-11 16:59:53 TRACE Loader:1718 - Initializing object from ResultSet: [model.Category#3]
+2020-06-11 16:59:53 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Category#3]
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([name2_1_] : [VARCHAR]) - [Thoi trang]
+2020-06-11 16:59:53 DEBUG Loader:384 - Result set row: 3
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([id1_1_] : [INTEGER]) - [4]
+2020-06-11 16:59:53 DEBUG Loader:1532 - Result row: EntityKey[model.Category#4]
+2020-06-11 16:59:53 TRACE Loader:1718 - Initializing object from ResultSet: [model.Category#4]
+2020-06-11 16:59:53 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Category#4]
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([name2_1_] : [VARCHAR]) - [Phong cách s?ng]
+2020-06-11 16:59:53 DEBUG Loader:384 - Result set row: 4
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([id1_1_] : [INTEGER]) - [5]
+2020-06-11 16:59:53 DEBUG Loader:1532 - Result row: EntityKey[model.Category#5]
+2020-06-11 16:59:53 TRACE Loader:1718 - Initializing object from ResultSet: [model.Category#5]
+2020-06-11 16:59:53 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Category#5]
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([name2_1_] : [VARCHAR]) - [Du l?ch]
+2020-06-11 16:59:53 DEBUG Loader:384 - Result set row: 5
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([id1_1_] : [INTEGER]) - [6]
+2020-06-11 16:59:53 DEBUG Loader:1532 - Result row: EntityKey[model.Category#6]
+2020-06-11 16:59:53 TRACE Loader:1718 - Initializing object from ResultSet: [model.Category#6]
+2020-06-11 16:59:53 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Category#6]
+2020-06-11 16:59:53 TRACE BasicExtractor:61 - extracted value ([name2_1_] : [VARCHAR]) - [test]
+2020-06-11 16:59:53 TRACE Loader:1008 - Done processing result set (6 rows)
+2020-06-11 16:59:53 TRACE Loader:1149 - Total objects hydrated: 6
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Category#1]
+2020-06-11 16:59:53 TRACE CollectionType:798 - Created collection wrapper: [model.Category.blogsById#1]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Category#1]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Category#2]
+2020-06-11 16:59:53 TRACE CollectionType:798 - Created collection wrapper: [model.Category.blogsById#2]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Category#2]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Category#3]
+2020-06-11 16:59:53 TRACE CollectionType:798 - Created collection wrapper: [model.Category.blogsById#3]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Category#3]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Category#4]
+2020-06-11 16:59:53 TRACE CollectionType:798 - Created collection wrapper: [model.Category.blogsById#4]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Category#4]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Category#5]
+2020-06-11 16:59:53 TRACE CollectionType:798 - Created collection wrapper: [model.Category.blogsById#5]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Category#5]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Category#6]
+2020-06-11 16:59:53 TRACE CollectionType:798 - Created collection wrapper: [model.Category.blogsById#6]
+2020-06-11 16:59:53 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Category#6]
+2020-06-11 16:59:53 TRACE ResourceRegistryStandardImpl:79 - Releasing statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_, category0_.name as name2_1_ from category category0_]
+2020-06-11 16:59:53 TRACE ResourceRegistryStandardImpl:143 - Closing result set [com.mysql.cj.jdbc.result.ResultSetImpl@7d9c7c69]
+2020-06-11 16:59:53 TRACE ResourceRegistryStandardImpl:159 - Closing prepared statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_, category0_.name as name2_1_ from category category0_]
+2020-06-11 16:59:53 TRACE JdbcCoordinatorImpl:269 - Starting after statement execution processing [ON_CLOSE]
+2020-06-11 16:59:53 TRACE StatefulPersistenceContext:917 - Initializing non-lazy collections
+2020-06-11 16:59:53 DEBUG TransactionImpl:95 - committing
+2020-06-11 16:59:53 TRACE JdbcResourceLocalTransactionCoordinatorImpl:176 - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+2020-06-11 16:59:53 TRACE SessionImpl:2471 - SessionImpl#beforeTransactionCompletion()
+2020-06-11 16:59:53 TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+2020-06-11 16:59:53 TRACE AbstractLogicalConnectionImplementor:80 - Preparing to commit transaction via JDBC Connection.commit()
+2020-06-11 16:59:53 TRACE AbstractLogicalConnectionImplementor:83 - Transaction committed via JDBC Connection.commit()
+2020-06-11 16:59:53 TRACE AbstractLogicalConnectionImplementor:100 - re-enabling auto-commit on JDBC Connection after completion of JDBC-based transaction
+2020-06-11 16:59:53 TRACE AbstractLogicalConnectionImplementor:53 - LogicalConnection#afterTransaction
+2020-06-11 16:59:53 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:53 TRACE JdbcResourceLocalTransactionCoordinatorImpl:194 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+2020-06-11 16:59:53 TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+2020-06-11 16:59:53 TRACE SessionImpl:2485 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+2020-06-11 16:59:53 TRACE SessionImpl:422 - Closing session [ecb3e3be-b5ec-4806-b5d2-f44874c37acf]
+2020-06-11 16:59:53 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@751801e0]
+2020-06-11 16:59:53 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:53 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 16:59:53 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 16:59:53 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 16:59:53 INFO  CategoryController:36 - [Category{id=1, name='Thieu nhi'}, Category{id=2, name='?? ?n'}, Category{id=3, name='Thoi trang'}, Category{id=4, name='Phong cách s?ng'}, Category{id=5, name='Du l?ch'}, Category{id=6, name='test'}]
+2020-06-11 16:59:53 TRACE CategoryController:42 - Exit loadListCategory()
+2020-06-11 17:00:02 TRACE CategoryController:111 - Go into loadViewDetail()
+2020-06-11 17:00:02 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 17:00:02 TRACE SessionImpl:288 - Opened Session [d1acf060-dd90-4df1-8492-3a2f9c363770] at timestamp: 1591869602326
+2020-06-11 17:00:02 DEBUG TransactionImpl:56 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-11 17:00:02 DEBUG TransactionImpl:78 - begin
+2020-06-11 17:00:02 TRACE AbstractLogicalConnectionImplementor:66 - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+2020-06-11 17:00:02 TRACE AbstractLogicalConnectionImplementor:68 - Transaction begun via JDBC Connection.setAutoCommit(false)
+2020-06-11 17:00:02 TRACE JdbcResourceLocalTransactionCoordinatorImpl:172 - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:255 - Loading entity: [model.Category#1]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:436 - Attempting to resolve: [model.Category#1]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:474 - Object not resolved in any cache: [model.Category#1]
+2020-06-11 17:00:02 TRACE AbstractEntityPersister:4222 - Fetching entity: [model.Category#1]
+2020-06-11 17:00:02 DEBUG SQL:94 - select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=?
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:66 - Registering statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=** NOT SPECIFIED **]
+2020-06-11 17:00:02 TRACE JdbcCoordinatorImpl:339 - Registering last query statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=** NOT SPECIFIED **]
+2020-06-11 17:00:02 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [1]
+2020-06-11 17:00:02 TRACE AbstractLoadPlanBasedLoader:272 - Bound [2] parameters total
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:193 - Registering result set [com.mysql.cj.jdbc.result.ResultSetImpl@2765c7e7]
+2020-06-11 17:00:02 TRACE ResultSetProcessorImpl:117 - Processing result set
+2020-06-11 17:00:02 DEBUG ResultSetProcessorImpl:120 - Starting ResultSet row #0
+2020-06-11 17:00:02 DEBUG EntityReferenceInitializerImpl:126 - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2020-06-11 17:00:02 TRACE EntityReferenceInitializerImpl:227 - hydrating entity state
+2020-06-11 17:00:02 TRACE EntityReferenceInitializerImpl:279 - Initializing object from ResultSet: [model.Category#1]
+2020-06-11 17:00:02 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Category#1]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([name2_1_0_] : [VARCHAR]) - [Thieu nhi]
+2020-06-11 17:00:02 TRACE ResultSetProcessorImpl:131 - Done processing result set (1 rows)
+2020-06-11 17:00:02 TRACE AbstractRowReader:231 - Total objects hydrated: 1
+2020-06-11 17:00:02 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Category#1]
+2020-06-11 17:00:02 TRACE CollectionType:798 - Created collection wrapper: [model.Category.blogsById#1]
+2020-06-11 17:00:02 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Category#1]
+2020-06-11 17:00:02 TRACE ResultSetProcessingContextImpl:329 - Skipping create subselects because there are fewer than 2 results, so query by key is more efficient.
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:102 - Releasing result set [com.mysql.cj.jdbc.result.ResultSetImpl@2765c7e7]
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:143 - Closing result set [com.mysql.cj.jdbc.result.ResultSetImpl@2765c7e7]
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:79 - Releasing statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=1]
+2020-06-11 17:00:02 DEBUG ResourceRegistryStandardImpl:84 - HHH000387: ResultSet's statement was not registered
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:159 - Closing prepared statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=1]
+2020-06-11 17:00:02 TRACE JdbcCoordinatorImpl:269 - Starting after statement execution processing [ON_CLOSE]
+2020-06-11 17:00:02 TRACE StatefulPersistenceContext:917 - Initializing non-lazy collections
+2020-06-11 17:00:02 DEBUG AbstractLoadPlanBasedEntityLoader:207 - Done entity load : model.Category#1
+2020-06-11 17:00:02 DEBUG TransactionImpl:95 - committing
+2020-06-11 17:00:02 TRACE JdbcResourceLocalTransactionCoordinatorImpl:176 - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+2020-06-11 17:00:02 TRACE SessionImpl:2471 - SessionImpl#beforeTransactionCompletion()
+2020-06-11 17:00:02 TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+2020-06-11 17:00:02 TRACE AbstractLogicalConnectionImplementor:80 - Preparing to commit transaction via JDBC Connection.commit()
+2020-06-11 17:00:02 TRACE AbstractLogicalConnectionImplementor:83 - Transaction committed via JDBC Connection.commit()
+2020-06-11 17:00:02 TRACE AbstractLogicalConnectionImplementor:100 - re-enabling auto-commit on JDBC Connection after completion of JDBC-based transaction
+2020-06-11 17:00:02 TRACE AbstractLogicalConnectionImplementor:53 - LogicalConnection#afterTransaction
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 17:00:02 TRACE JdbcResourceLocalTransactionCoordinatorImpl:194 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+2020-06-11 17:00:02 TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+2020-06-11 17:00:02 TRACE SessionImpl:2485 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+2020-06-11 17:00:02 TRACE SessionImpl:422 - Closing session [d1acf060-dd90-4df1-8492-3a2f9c363770]
+2020-06-11 17:00:02 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@31ec2cdc]
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 17:00:02 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 17:00:02 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 17:00:02 INFO  CategoryController:122 - Category{id=1, name='Thieu nhi'}
+2020-06-11 17:00:02 TRACE SessionFactoryImpl$SessionBuilderImpl:1289 - Opening Hibernate Session.  tenant=null, owner=null
+2020-06-11 17:00:02 TRACE SessionImpl:288 - Opened Session [6e19f91d-e2dc-4edc-958a-f0b73714d7cf] at timestamp: 1591869602370
+2020-06-11 17:00:02 DEBUG CriteriaQueryImpl:307 - Rendered criteria query -> select generatedAlias0 from Blog as generatedAlias0 left join generatedAlias0.categoryByCategoryId as generatedAlias1 where generatedAlias1=:param0
+2020-06-11 17:00:02 TRACE QueryPlanCache:152 - Unable to locate HQL query plan in cache; generating (select generatedAlias0 from Blog as generatedAlias0 left join generatedAlias0.categoryByCategoryId as generatedAlias1 where generatedAlias1=:param0)
+2020-06-11 17:00:02 DEBUG QueryTranslatorImpl:287 - parse() - HQL: select generatedAlias0 from model.Blog as generatedAlias0 left join generatedAlias0.categoryByCategoryId as generatedAlias1 where generatedAlias1=:param0
+2020-06-11 17:00:02 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-11 17:00:02 DEBUG QueryTranslatorImpl:308 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  +-[RANGE] Node: 'RANGE'
+    |  |  |  +-[DOT] Node: '.'
+    |  |  |  |  +-[IDENT] Node: 'model'
+    |  |  |  |  \-[IDENT] Node: 'Blog'
+    |  |  |  \-[ALIAS] Node: 'generatedAlias0'
+    |  |  \-[JOIN] Node: 'join'
+    |  |     +-[LEFT] Node: 'left'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[IDENT] Node: 'generatedAlias0'
+    |  |     |  \-[IDENT] Node: 'categoryByCategoryId'
+    |  |     \-[ALIAS] Node: 'generatedAlias1'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'generatedAlias1'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+2020-06-11 17:00:02 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2020-06-11 17:00:02 DEBUG FromElement:146 - FromClause{level=1} : model.Blog (generatedAlias0) -> blog0_
+2020-06-11 17:00:02 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> blog0_.id
+2020-06-11 17:00:02 TRACE FromElement:646 - Handling property dereference [model.Blog (generatedAlias0) -> categoryByCategoryId (class)]
+2020-06-11 17:00:02 DEBUG DotNode:688 - getDataType() : categoryByCategoryId -> org.hibernate.type.ManyToOneType(model.Category)
+2020-06-11 17:00:02 DEBUG DotNode:438 - dereferenceEntityJoin() : generating join for categoryByCategoryId in model.Blog (generatedAlias1) parent = [ {null} ]
+2020-06-11 17:00:02 DEBUG FromElement:146 - FromClause{level=1} : model.Category (generatedAlias1) -> category1_
+2020-06-11 17:00:02 DEBUG FromClause:287 - addJoinByPathMap() : generatedAlias0.categoryByCategoryId -> FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias1,role=null,tableName=category,tableAlias=category1_,origin=blog blog0_,columns={blog0_.category_id ,className=model.Category}}
+2020-06-11 17:00:02 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0.categoryByCategoryId -> blog0_.category_id
+2020-06-11 17:00:02 DEBUG HqlSqlWalker:440 - createFromJoinElement() : -- join tree --
+ \-[JOIN_FRAGMENT] FromElement: 'category category1_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias1,role=model.Blog.categoryByCategoryId,tableName=category,tableAlias=category1_,origin=blog blog0_,columns={blog0_.category_id ,className=model.Category}}
+
+2020-06-11 17:00:02 DEBUG FromReferenceNode:60 - Resolved : generatedAlias0 -> blog0_.id
+2020-06-11 17:00:02 DEBUG FromReferenceNode:60 - Resolved : generatedAlias1 -> category1_.id
+2020-06-11 17:00:02 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2020-06-11 17:00:02 DEBUG HqlSqlWalker:752 - processQuery() :  ( SELECT ( {select clause} blog0_.id ) ( FromClause{level=1} ( blog blog0_ category category1_ ) ) ( where ( = category1_.id ? ) ) )
+2020-06-11 17:00:02 DEBUG JoinProcessor:192 - Using FROM fragment [blog blog0_]
+2020-06-11 17:00:02 DEBUG JoinProcessor:192 - Using FROM fragment [left outer join category category1_ on blog0_.category_id=category1_.id]
+2020-06-11 17:00:02 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2020-06-11 17:00:02 DEBUG QueryTranslatorImpl:274 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (blog,category)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'blog0_.id as id1_0_' {alias=generatedAlias0, className=model.Blog, tableAlias=blog0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'blog0_.category_id as category5_0_, blog0_.content as content2_0_, blog0_.created_date as created_3_0_, blog0_.title as title4_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=2, fromElements=2, fromElementByClassAlias=[generatedAlias0, generatedAlias1], fromElementByTableAlias=[blog0_, category1_], fromElementsByPath=[generatedAlias0.categoryByCategoryId], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'blog blog0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=blog,tableAlias=blog0_,origin=null,columns={,className=model.Blog}}
+    |     \-[JOIN_FRAGMENT] FromElement: 'left outer join category category1_ on blog0_.category_id=category1_.id' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias1,role=model.Blog.categoryByCategoryId,tableName=category,tableAlias=category1_,origin=blog blog0_,columns={blog0_.category_id ,className=model.Category}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[ALIAS_REF] IdentNode: 'category1_.id' {alias=generatedAlias1, className=model.Category, tableAlias=category1_}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.ManyToOneType(model.Category)}
+
+2020-06-11 17:00:02 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-11 17:00:02 DEBUG QueryTranslatorImpl:253 - HQL: select generatedAlias0 from model.Blog as generatedAlias0 left join generatedAlias0.categoryByCategoryId as generatedAlias1 where generatedAlias1=:param0
+2020-06-11 17:00:02 DEBUG QueryTranslatorImpl:254 - SQL: select blog0_.id as id1_0_, blog0_.category_id as category5_0_, blog0_.content as content2_0_, blog0_.created_date as created_3_0_, blog0_.title as title4_0_ from blog blog0_ left outer join category category1_ on blog0_.category_id=category1_.id where category1_.id=?
+2020-06-11 17:00:02 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-11 17:00:02 TRACE QueryPlanCache:157 - Located HQL query plan in cache (select generatedAlias0 from Blog as generatedAlias0 left join generatedAlias0.categoryByCategoryId as generatedAlias1 where generatedAlias1=:param0)
+2020-06-11 17:00:02 TRACE QueryPlanCache:157 - Located HQL query plan in cache (select generatedAlias0 from Blog as generatedAlias0 left join generatedAlias0.categoryByCategoryId as generatedAlias1 where generatedAlias1=:param0)
+2020-06-11 17:00:02 TRACE HQLQueryPlan:198 - Find: select generatedAlias0 from Blog as generatedAlias0 left join generatedAlias0.categoryByCategoryId as generatedAlias1 where generatedAlias1=:param0
+2020-06-11 17:00:02 TRACE QueryParameters:325 - Named parameters: {param0=model.Category#1}
+2020-06-11 17:00:02 DEBUG SQL:94 - select blog0_.id as id1_0_, blog0_.category_id as category5_0_, blog0_.content as content2_0_, blog0_.created_date as created_3_0_, blog0_.title as title4_0_ from blog blog0_ left outer join category category1_ on blog0_.category_id=category1_.id where category1_.id=?
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:66 - Registering statement [com.mysql.cj.jdbc.ClientPreparedStatement: select blog0_.id as id1_0_, blog0_.category_id as category5_0_, blog0_.content as content2_0_, blog0_.created_date as created_3_0_, blog0_.title as title4_0_ from blog blog0_ left outer join category category1_ on blog0_.category_id=category1_.id where category1_.id=** NOT SPECIFIED **]
+2020-06-11 17:00:02 TRACE JdbcCoordinatorImpl:339 - Registering last query statement [com.mysql.cj.jdbc.ClientPreparedStatement: select blog0_.id as id1_0_, blog0_.category_id as category5_0_, blog0_.content as content2_0_, blog0_.created_date as created_3_0_, blog0_.title as title4_0_ from blog blog0_ left outer join category category1_ on blog0_.category_id=category1_.id where category1_.id=** NOT SPECIFIED **]
+2020-06-11 17:00:02 TRACE IdentifierValue:130 - ID unsaved-value: null
+2020-06-11 17:00:02 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [1]
+2020-06-11 17:00:02 TRACE Loader:2034 - Bound [2] parameters total
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:193 - Registering result set [com.mysql.cj.jdbc.result.ResultSetImpl@12a251]
+2020-06-11 17:00:02 TRACE Loader:983 - Processing result set
+2020-06-11 17:00:02 DEBUG Loader:384 - Result set row: 0
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([id1_0_] : [INTEGER]) - [6]
+2020-06-11 17:00:02 DEBUG Loader:1532 - Result row: EntityKey[model.Blog#6]
+2020-06-11 17:00:02 TRACE Loader:1718 - Initializing object from ResultSet: [model.Blog#6]
+2020-06-11 17:00:02 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Blog#6]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([category5_0_] : [INTEGER]) - [1]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([content2_0_] : [VARCHAR]) - [test12345]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([created_3_0_] : [TIMESTAMP]) - [2020-06-07 11:54:25.0]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([title4_0_] : [VARCHAR]) - [test]
+2020-06-11 17:00:02 DEBUG Loader:384 - Result set row: 1
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([id1_0_] : [INTEGER]) - [11]
+2020-06-11 17:00:02 DEBUG Loader:1532 - Result row: EntityKey[model.Blog#11]
+2020-06-11 17:00:02 TRACE Loader:1718 - Initializing object from ResultSet: [model.Blog#11]
+2020-06-11 17:00:02 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Blog#11]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([category5_0_] : [INTEGER]) - [1]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([content2_0_] : [VARCHAR]) - [test]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([created_3_0_] : [TIMESTAMP]) - [2020-06-07 20:56:47.0]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([title4_0_] : [VARCHAR]) - [test122]
+2020-06-11 17:00:02 DEBUG Loader:384 - Result set row: 2
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([id1_0_] : [INTEGER]) - [13]
+2020-06-11 17:00:02 DEBUG Loader:1532 - Result row: EntityKey[model.Blog#13]
+2020-06-11 17:00:02 TRACE Loader:1718 - Initializing object from ResultSet: [model.Blog#13]
+2020-06-11 17:00:02 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Blog#13]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([category5_0_] : [INTEGER]) - [1]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([content2_0_] : [VARCHAR]) - [vsdvsdvs]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([created_3_0_] : [TIMESTAMP]) - [2020-06-07 21:19:46.0]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([title4_0_] : [VARCHAR]) - [vdsvsdv]
+2020-06-11 17:00:02 TRACE Loader:1008 - Done processing result set (3 rows)
+2020-06-11 17:00:02 TRACE Loader:1149 - Total objects hydrated: 3
+2020-06-11 17:00:02 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Blog#6]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:255 - Loading entity: [model.Category#1]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:436 - Attempting to resolve: [model.Category#1]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:474 - Object not resolved in any cache: [model.Category#1]
+2020-06-11 17:00:02 TRACE AbstractEntityPersister:4222 - Fetching entity: [model.Category#1]
+2020-06-11 17:00:02 DEBUG SQL:94 - select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=?
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:66 - Registering statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=** NOT SPECIFIED **]
+2020-06-11 17:00:02 TRACE JdbcCoordinatorImpl:339 - Registering last query statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=** NOT SPECIFIED **]
+2020-06-11 17:00:02 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [1]
+2020-06-11 17:00:02 TRACE AbstractLoadPlanBasedLoader:272 - Bound [2] parameters total
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:193 - Registering result set [com.mysql.cj.jdbc.result.ResultSetImpl@5f87cb9d]
+2020-06-11 17:00:02 TRACE ResultSetProcessorImpl:117 - Processing result set
+2020-06-11 17:00:02 DEBUG ResultSetProcessorImpl:120 - Starting ResultSet row #0
+2020-06-11 17:00:02 DEBUG EntityReferenceInitializerImpl:126 - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2020-06-11 17:00:02 TRACE EntityReferenceInitializerImpl:227 - hydrating entity state
+2020-06-11 17:00:02 TRACE EntityReferenceInitializerImpl:279 - Initializing object from ResultSet: [model.Category#1]
+2020-06-11 17:00:02 TRACE AbstractEntityPersister:2894 - Hydrating entity: [model.Category#1]
+2020-06-11 17:00:02 TRACE BasicExtractor:61 - extracted value ([name2_1_0_] : [VARCHAR]) - [Thieu nhi]
+2020-06-11 17:00:02 TRACE ResultSetProcessorImpl:131 - Done processing result set (1 rows)
+2020-06-11 17:00:02 TRACE AbstractRowReader:231 - Total objects hydrated: 1
+2020-06-11 17:00:02 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Category#1]
+2020-06-11 17:00:02 TRACE CollectionType:798 - Created collection wrapper: [model.Category.blogsById#1]
+2020-06-11 17:00:02 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Category#1]
+2020-06-11 17:00:02 TRACE ResultSetProcessingContextImpl:329 - Skipping create subselects because there are fewer than 2 results, so query by key is more efficient.
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:102 - Releasing result set [com.mysql.cj.jdbc.result.ResultSetImpl@5f87cb9d]
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:143 - Closing result set [com.mysql.cj.jdbc.result.ResultSetImpl@5f87cb9d]
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:79 - Releasing statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=1]
+2020-06-11 17:00:02 DEBUG ResourceRegistryStandardImpl:84 - HHH000387: ResultSet's statement was not registered
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:159 - Closing prepared statement [com.mysql.cj.jdbc.ClientPreparedStatement: select category0_.id as id1_1_0_, category0_.name as name2_1_0_ from category category0_ where category0_.id=1]
+2020-06-11 17:00:02 TRACE JdbcCoordinatorImpl:269 - Starting after statement execution processing [ON_CLOSE]
+2020-06-11 17:00:02 DEBUG AbstractLoadPlanBasedEntityLoader:207 - Done entity load : model.Category#1
+2020-06-11 17:00:02 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Blog#6]
+2020-06-11 17:00:02 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Blog#11]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:255 - Loading entity: [model.Category#1]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:436 - Attempting to resolve: [model.Category#1]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:455 - Resolved object in session cache: [model.Category#1]
+2020-06-11 17:00:02 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Blog#11]
+2020-06-11 17:00:02 DEBUG TwoPhaseLoad:145 - Resolving associations for [model.Blog#13]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:255 - Loading entity: [model.Category#1]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:436 - Attempting to resolve: [model.Category#1]
+2020-06-11 17:00:02 TRACE DefaultLoadEventListener:455 - Resolved object in session cache: [model.Category#1]
+2020-06-11 17:00:02 DEBUG TwoPhaseLoad:290 - Done materializing entity [model.Blog#13]
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:79 - Releasing statement [com.mysql.cj.jdbc.ClientPreparedStatement: select blog0_.id as id1_0_, blog0_.category_id as category5_0_, blog0_.content as content2_0_, blog0_.created_date as created_3_0_, blog0_.title as title4_0_ from blog blog0_ left outer join category category1_ on blog0_.category_id=category1_.id where category1_.id=1]
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:143 - Closing result set [com.mysql.cj.jdbc.result.ResultSetImpl@12a251]
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:159 - Closing prepared statement [com.mysql.cj.jdbc.ClientPreparedStatement: select blog0_.id as id1_0_, blog0_.category_id as category5_0_, blog0_.content as content2_0_, blog0_.created_date as created_3_0_, blog0_.title as title4_0_ from blog blog0_ left outer join category category1_ on blog0_.category_id=category1_.id where category1_.id=1]
+2020-06-11 17:00:02 TRACE JdbcCoordinatorImpl:269 - Starting after statement execution processing [ON_CLOSE]
+2020-06-11 17:00:02 TRACE StatefulPersistenceContext:917 - Initializing non-lazy collections
+2020-06-11 17:00:02 TRACE SessionImpl:422 - Closing session [6e19f91d-e2dc-4edc-958a-f0b73714d7cf]
+2020-06-11 17:00:02 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@4c602cf8]
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 17:00:02 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 17:00:02 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 17:00:02 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 17:00:02 INFO  CategoryController:125 - [Blog{id=6, title='test', content='test12345', createdDate=2020-06-07 11:54:25.0, categoryByCategoryId=Category{id=1, name='Thieu nhi'}}, Blog{id=11, title='test122', content='test', createdDate=2020-06-07 20:56:47.0, categoryByCategoryId=Category{id=1, name='Thieu nhi'}}, Blog{id=13, title='vdsvsdv', content='vsdvsdvs', createdDate=2020-06-07 21:19:46.0, categoryByCategoryId=Category{id=1, name='Thieu nhi'}}]
+2020-06-11 17:00:02 TRACE CategoryController:133 - Exit loadViewDetail()
+2020-06-11 17:00:37 TRACE SessionImpl:422 - Closing session [57866fa6-895b-4da5-a620-0e4437c4a26f]
+2020-06-11 17:00:37 TRACE JdbcCoordinatorImpl:179 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@3ecd23d9]
+2020-06-11 17:00:37 TRACE ResourceRegistryStandardImpl:297 - Releasing JDBC resources
+2020-06-11 17:00:37 TRACE LogicalConnectionManagedImpl:237 - Closing logical connection
+2020-06-11 17:00:37 TRACE LogicalConnectionManagedImpl:244 - Logical connection closed
+2020-06-11 17:00:37 DEBUG SessionFactoryImpl:792 - HHH000031: Closing
+2020-06-11 17:00:37 TRACE QueryPlanCache:226 - Cleaning QueryPlan Cache
+2020-06-11 17:00:37 TRACE TypeConfiguration$Scope:190 - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@465c28ec] for TypeConfiguration
+2020-06-11 17:00:37 DEBUG TypeConfiguration$Scope:291 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@569cfc36] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@465c28ec]
+2020-06-11 17:00:37 DEBUG AbstractServiceRegistryImpl:418 - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2020-06-11 17:00:37 DEBUG BootstrapServiceRegistryImpl:295 - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
